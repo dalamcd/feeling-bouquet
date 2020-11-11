@@ -1,0 +1,97 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "commonName": "rose",
+            "color": "red"
+        },
+        {
+            "id": 2,
+            "commonName": "sunflower",
+            "color": "yellow"
+        },
+        {
+            "id": 3,
+            "commonName": "lily",
+            "color": "white"
+        }
+    ],
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Flowers Inc.",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "123 Main St.",
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Keeping Up Appearances",
+            "city": "Franklin",
+            "state": "TN",
+            "address": "456 Main St.",
+            "distributorId": 2
+        }
+    ],
+    "distributors": [
+        {
+            "id": 1,
+            "name": "We Sell Flowers",
+            "city": "Nashville",
+            "state": "TN",
+            "address": "321 Main St."
+        },
+        {
+            "id": 2,
+            "name": "We Also Sell Flowers",
+            "city": "Mephis",
+            "state": "TN",
+            "address": "654 Main St."
+        }
+    ],
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "We Grow Flowers"
+        },
+        {
+            "id": 2,
+            "name": "We Also Grow Flowers"
+        }
+    ],
+    "distributorNurseries": [
+        {
+            "id": 1,
+            "distributorId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "distributorId": 2,
+            "nurseryId": 1
+        },
+        {
+            "id": 3,
+            "distributorId": 1,
+            "nurseryId": 2
+        }
+    ],
+    "nurseryFlowers": [
+        {
+            "id": 1,
+            "flowerId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "flowerId": 2,
+            "nurseryId": 1
+        },
+        {
+            "id": 3,
+            "flowerId": 3,
+            "nurseryId": 2
+        }
+    ]
+}
